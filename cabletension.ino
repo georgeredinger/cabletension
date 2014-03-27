@@ -24,7 +24,7 @@ void loop() {
   grams=scale.getGram();
   duration = millis() - start;
    
-  Serial.print(duration);Serial.print(",");Serial.println(grams);
+ Serial.print(millis());Serial.print(","); Serial.print(duration);Serial.print(",");Serial.println(grams);
 
  // delay(200);
 }
